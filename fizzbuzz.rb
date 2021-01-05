@@ -19,5 +19,6 @@ elsif fizz_3.class == Integer
 # end
 end
 end
+end
 puts fizzbuzz(15)
   # binding.pry
