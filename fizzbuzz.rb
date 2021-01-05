@@ -16,7 +16,7 @@ elsif fizz_3.class == Integer
 # else
 #   return nil
 # end
-end
+
 end
 end
 puts fizzbuzz(15)
