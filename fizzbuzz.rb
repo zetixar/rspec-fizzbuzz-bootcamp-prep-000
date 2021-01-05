@@ -12,11 +12,9 @@ end
 if fizz_3.class == Integer
   return "Fizz"
 end
-if fizz_5.class == Integer
+elsif fizz_5.class == Integer
   return "Buzz"
 end
-else
   return nil
-end
 end
   # binding.pry
