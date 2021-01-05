@@ -5,7 +5,7 @@ def fizzbuzz number
   fizz_5 = number / 5
 
 if fizz_3.class == Integer
-  if fizz_5 == Integer
+  if fizz_5.class == Integer
     return "FizzBuzz"
   end
 end
