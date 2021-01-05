@@ -13,3 +13,4 @@ def fizzbuzz number
     end
   if value % 5 == 0
     return "Buzz"
+  end
