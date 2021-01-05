@@ -1,18 +1,19 @@
 
 # require 'pry'
 def fizzbuzz number
-  # binding.pry
-  def fizzbuzz value
-    if value % 3 == 0
-        if value % 5
-          return "FizzBuzz"
-        end
-      end
-    elsif value % 3 == 0
-      return "Fizz"
-    end
-  elsif value % 5 == 0
-    return "Buzz"
+if number % 3 == class.fixnum == true
+  if number % 5 == class.fixnum == true
+    return "FizzBuzz"
   end
-  nil
 end
+elsif number % 3 == class.fixnum == true
+  return "Fizz"
+end
+elsif number % 5 == class.fixnum == true
+  return "Buzz"
+end
+else
+  return nil
+end
+end
+  # binding.pry
