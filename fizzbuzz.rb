@@ -6,6 +6,8 @@ def fizzbuzz number
 puts fizz_3.class
 puts fizz_5.class
 puts fizz_3
+puts fizz_5
+
 if fizz_3.class == Integer && fizz_5.class == Integer
     return "FizzBuzz"
 
