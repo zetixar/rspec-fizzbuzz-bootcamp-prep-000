@@ -17,9 +17,9 @@ elsif fizz_3.class == Integer
 # elsif fizz_5.class == Integer
 #   return "Buzz"
 # end
-# else
-#   return nil
-# end
+else
+  return nil
+end
 
 end
 end
