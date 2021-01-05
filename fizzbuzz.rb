@@ -13,7 +13,7 @@ def fizzbuzz number
     end
   if value % 5 == class.fixnum
     return "Buzz"
-  end
+  
 else
   return nil
 end
