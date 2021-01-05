@@ -8,8 +8,8 @@ def fizzbuzz number
           return "FizzBuzz"
         end
       end
-    elseif value % 3 == class.fixnum
+    elsif value % 3 == class.fixnum
       return "Fizz"
     end
-  elseif value % 5 == class.fixnum
+  elsif value % 5 == class.fixnum
     return "Buzz"
