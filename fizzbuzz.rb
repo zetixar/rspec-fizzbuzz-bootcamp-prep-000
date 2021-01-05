@@ -3,10 +3,10 @@
 def fizzbuzz number
   fizz_3 = number / 3
   fizz_5 = number / 5
-
+spy
 if fizz_3.class == Integer && fizz_5.class == Integer
     return "FizzBuzz"
-spy
+
 elsif fizz_3.class == Integer
   return "Fizz"
 
