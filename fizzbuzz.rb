@@ -5,7 +5,7 @@ def fizzbuzz number
   fizz_5 = number / 5
 puts fizz_3.class
 puts fizz_5.class
-puts fizz_3
+puts (number / 3)
 puts fizz_5
 
 if fizz_3.class == Integer && fizz_5.class == Integer
