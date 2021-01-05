@@ -1,15 +1,18 @@
 
 # require 'pry'
 def fizzbuzz number
-if number / 3 == class.fixnum
-  if number / 5 == class.fixnum
+  fizz_3 = number / 3
+  fizz_5 = number / 5
+
+if fizz_3.class == Integer
+  if fizz_5 == Integer
     return "FizzBuzz"
   end
 end
-elsif number / 3 == class.fixnum
+elsif fizz_3.class == Integer
   return "Fizz"
 end
-elsif number / 5 == class.fixnum
+elsif fizz_5.class == Integer
   return "Buzz"
 end
 else
