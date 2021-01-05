@@ -19,7 +19,7 @@ elsif fizz_3.class == Integer
 
 end
 end
-puts fizzbuzz(15)
+# puts fizzbuzz(15)
 puts fizzbuzz(3)
 puts fizzbuzz(5)
 
