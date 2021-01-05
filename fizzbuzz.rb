@@ -19,4 +19,5 @@ if fizz_3.class == Integer
 # end
 end
 end
+fizzbuzz(15)
   # binding.pry
